@@ -1,0 +1,6 @@
+{
+  "domain": "dev-k5z2h91y.us.auth0.com",
+  "clientId": "BPrBfvuJeu58g2hMdn0VlqoYdTjJOb4G",
+  "audience": "https://express.sample",
+  "serverUrl": "http://localhost:6060"
+}

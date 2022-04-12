@@ -1,0 +1,39 @@
+<section class="home">
+  <img src="../../assets/landingpage/Home.jpg">
+  
+  <div class="homecontent">
+    <h1>Ricette Private</h1>
+    <h2>Qui troverai una raccolta di tutte le ricette private</h2>
+  </div>
+  </section>
+
+    <!-- Row  -->
+<div class="container spacer">
+    <div class="row justify-content-center">
+      <!-- Column -->
+      <div class="col-md-8 no-trans text-center">
+        <br>
+        <!--<h2 class="title">Ricette Private</h2>-->
+        
+      </div>
+      <!-- Column -->
+    </div>
+    <div class="row m-t-40 justify-content-center">
+      <!-- Column -->
+
+      <div class="card"  *ngFor="let bl of service.About"> <br>
+        <img (click)="viewDetail(bl.id)" src={{bl.image}}  alt="Avatar" style="width:100%">
+        <div class="container" >
+          <h4><b> {{ bl.heading.substring(0, 50) }}</b></h4> 
+        </div>
+      </div>
+  
+  
+            
+        </div>
+        
+      </div>
+
+
+
+ 

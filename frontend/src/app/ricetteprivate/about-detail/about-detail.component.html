@@ -1,0 +1,72 @@
+<section class="home">
+  <img src="../../assets/landingpage/Home.jpg">
+  
+  <div class="homecontent">
+
+  </div>
+  </section>
+  <div class="container">
+    <!-- Row  -->
+    <div class="row justify-content-center">
+      <!-- Column -->
+      <div class="col-lg-9 col-md-6 align-self-center text-center">
+        <h1 class="title">RICETTE PRIVATE</h1>
+        
+      </div>
+      <!-- Column -->
+    </div>
+  </div>
+
+<!-- Row  -->
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-8 no-trans">
+      <div class="mini-spacer">
+        <style>
+          img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          }
+          </style>
+        <img [src]="aboutDetail?.image"  class="img-fluid"  />
+        <div
+          class="d-flex align-items-center text-uppercase m-t-40 font-13 font-medium"
+        >
+          
+        </div>
+        <h2 class="title font-light">
+          {{ aboutDetail?.heading }}
+        </h2>
+        
+        <h5 class="m-t-30 m-b-30">
+          {{ aboutDetail?.aboutDetail }}
+        </h5>
+        <h2 class="title font-light">
+          {{aboutDetail?.ricetta}}
+        </h2>
+        
+          
+        <ol> 
+        <h5 class="m-t-30 m-b-30">
+          <li>{{aboutDetail?.ingredienti1}}</li>
+          <li>{{aboutDetail?.ingredienti2}}</li>
+          <li>{{aboutDetail?.ingredienti3}}</li>
+          <li>{{aboutDetail?.ingredienti4}}</li>
+          <li>{{aboutDetail?.ingredienti5}}</li>
+          <li>{{aboutDetail?.ingredienti6}}</li>
+          <li>{{aboutDetail?.ingredienti7}}</li>
+          <li>{{aboutDetail?.ingredienti8}}</li>
+          <li>{{aboutDetail?.ingredienti9}}</li>
+          <li>{{aboutDetail?.ingredienti10}}</li>
+        </h5>
+      </ol>
+      
+
+      
+        
+      </div>
+    </div>
+  </div>
+  <!-- Row  -->
+</div>
